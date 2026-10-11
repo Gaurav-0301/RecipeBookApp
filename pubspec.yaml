@@ -1,0 +1,87 @@
+
+name: recipe_book
+
+description: "A new Flutter project."
+
+publish_to: 'none'
+
+version: 1.0.0+1
+
+environment:
+  sdk: ^3.13.1
+
+dependencies:
+  flutter:
+    sdk: flutter
+
+  cupertino_icons: ^1.0.8
+  google_fonts: ^9.0.0
+  flutter_riverpod: ^3.4.3
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+
+  flutter_lints: ^6.0.0
+
+  # App launcher icon generator
+  flutter_launcher_icons: ^0.14.4
+
+flutter:
+
+  # Material Icons
+  uses-material-design: true
+
+  # App and recipe images
+  assets:
+    # App icon
+    - assets/applogo.png
+
+    # Category images
+    - assets/puranpoli.jpeg
+    - assets/southIndian.avif
+    - assets/north_indian_thali.jpg
+    - assets/Chinese.jpg
+    - assets/Italian.jpeg
+    - assets/Mexican.jpeg
+
+    # South Indian
+    - assets/MasalaDosa.jpg
+    - assets/idli.jpg_compressed
+    - assets/meduwada.jpeg
+
+    # North Indian
+    - assets/chole.jpeg
+    - assets/RajmaChawal.jpeg
+    - assets/AlooParatha.jpeg
+
+    # Chinese
+    - assets/hakkanoodles.jpeg
+    - assets/VegetableFriedRice.jpeg
+    - assets/manchurian.jpg
+
+    # Italian
+    - assets/pizza.jpeg
+    - assets/Arrabbiata.webp
+    - assets/lasagne.jpeg
+
+    # Mexican
+    - assets/taco.jpeg
+    - assets/burritos.jpeg
+    - assets/nachos.jpeg
+
+
+# ============================================================
+# FLUTTER LAUNCHER ICONS
+# ============================================================
+
+flutter_launcher_icons:
+
+  # Android launcher icon
+  android: true
+
+  # iOS launcher icon
+  ios: true
+
+  # Your Recipe Book logo
+  image_path: "assets/applogo.png"
